@@ -15,7 +15,7 @@ close all;
     m = 7;              % Truncation size for a_k
     p = 3.5;            % Decay rate upwards
     q = 4.8;            % Decay rate downwards
-    DimT = 40;          % Dimension of finite Toeplitz matrix to simulate open limit
+    DimT = 400;          % Dimension of finite Toeplitz matrix to simulate open limit
     num_lambda = 30;    % Number of plotting points (50-100)
     fs = 18;            % Fontsize for annotation
     
@@ -46,9 +46,13 @@ close all;
     T = fourier_to_toeplitz(a, DimT);
     eigT = sort(eig(T));
 
-
+  
+    
 % ==== Approximate the open limit ====
      [lambda_interval(1), lambda_interval(2)] = open_limit(a);
+
+     % --- Compute l1 distance ---
+     d_inf = compute_cinf(a, lambda_interval(1), lambda_interval(2));
 
 
 % ==== Approximate conjugate root set Λ(f) ====
@@ -314,5 +318,3 @@ function merged = merge_close_points(openLimit, tol)
         end
     end
 end
-
-

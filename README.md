@@ -14,6 +14,21 @@
 
 **Run File** (`Runfiles.m`)  
 
+<p align="center">
+  <img src="Images/GBZ.svg" alt="GBZ" width="600"><br>
+  <em>Figure 1: caption here</em>
+</p>
+
+<p align="center">
+  <img src="Images/PhaseShift.svg" alt="Phase shift" width="600"><br>
+  <em>Figure 2: caption here</em>
+</p>
+
+<p align="center">
+  <img src="Images/SpectralConvergence.svg" alt="Spectral convergence" width="600"><br>
+  <em>Figure 3: caption here</em>
+</p>
+
 
 ## IV. References
 

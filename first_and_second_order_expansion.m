@@ -1,12 +1,13 @@
+%{
+    ----------------------------------------------------------------------
+    Author(s):    [Yannick DE BRUIJN, Michael FLOATER, Erik HILTUNEN]
+    Date:         [August 2026]
+    Description:  [Second order Toeplitz Expansion]
+    ----------------------------------------------------------------------
+%}
+
 function [FourierFP, Fourier_mu, c_inf] = first_and_second_order_expansion(a, opts)
 
-    %{
-        ----------------------------------------------------------------------
-        Author(s):    [Yannick DE BRUIJN, Michael FLOATER, Erik HILTUNEN]
-        Date:         [August 2026]
-        Description:  [Second order Toeplitz Expansion]
-        ----------------------------------------------------------------------
-    %}
     arguments
         a
         opts.num_lambda = 60;    % Sampling points on the band

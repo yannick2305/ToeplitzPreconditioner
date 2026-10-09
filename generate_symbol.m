@@ -1,3 +1,11 @@
+%{
+    --------------------------------------------------------------------------
+    Author(s):    [Yannick DE BRUIJN, Erik HILTUNEN]
+    Date:         [August 2026]
+    Description:  [Generate Laurent polynomial from off-diagonal decay rates]
+    --------------------------------------------------------------------------
+%}
+
 function a = generate_symbol(m, p, q)
 
 % ==== Generate m-banded Dummy Toeplitz Matrix ====

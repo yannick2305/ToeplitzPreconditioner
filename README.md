@@ -37,7 +37,7 @@ Show_phase_shift = true;
 
 ## II. Acknowledgments
 
-The authors thank Michael Floater for providing `resample2.m` and `lagrangeInterp.m`, used for the spline interpolation of the generalised Brillouin zone.
+The authors thank Michael Floater for providing `resample2.m` and `lagrangeInterp.m`, used for the spline interpolation of the generalised Brillouin zone used in `first_order_expansion.m`.
 
 ## III. References
 

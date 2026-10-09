@@ -1,3 +1,11 @@
+%{
+    ----------------------------------------------------------------------
+    Authors:      [Yannick DE BRUIJN, Erik HILTUNEN]
+    Date:         [August 2026]
+    Description:  [Generate finite Toeplitz matrix from symbol function]
+    ----------------------------------------------------------------------
+%}
+
 function T = fourier_to_toeplitz(a, dimT)
     K = (length(a) - 1) / 2;
     a_0 = a(K+1);          

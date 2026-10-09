@@ -1,3 +1,11 @@
+%{
+    ----------------------------------------------------------------------
+    Author:       [Michael FLOATER]
+    Date:         [August 2026]
+    Description:  [Run File]
+    ----------------------------------------------------------------------
+%}
+
 function pointsUni = resample2(points,m)
 % Resample complex points by uniform angle
 

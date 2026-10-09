@@ -1,3 +1,10 @@
+%{
+    ----------------------------------------------------------------------
+    Authors:      [Yannick DE BRUIJN, Erik HILTUNEN]
+    Date:         [August 2026]
+    Description:  [Generate Fourier coefficients of f(p(T))]
+    ----------------------------------------------------------------------
+%}
 
 function ck = fourier_coefficients_spectral(fp_values, K)
 

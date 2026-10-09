@@ -2,7 +2,7 @@
     ----------------------------------------------------------------------
     Author:       [Michael FLOATER]
     Date:         [August 2026]
-    Description:  [Run File]
+    Description:  [resample2 function]
     ----------------------------------------------------------------------
 %}
 

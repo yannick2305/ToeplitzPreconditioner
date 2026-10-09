@@ -1,3 +1,11 @@
+%{
+    ----------------------------------------------------------------------
+    Author:       [Michael FLOATER]
+    Date:         [August 2026]
+    Description:  [lagrangeInterp function]
+    ----------------------------------------------------------------------
+%}
+
 function v = lagrangeInterp(u,x,y)
 %
 % Given distinct points x0, x1, ..., xn and values

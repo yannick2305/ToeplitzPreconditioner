@@ -1,3 +1,11 @@
+%{
+    ----------------------------------------------------------------------
+    Authors:      [Yannick DE BRUIJN, Erik HILTUNEN]
+    Date:         [August 2026]
+    Description:  [Compute the open limit using bisection]
+    ----------------------------------------------------------------------
+%} 
+
 function [lambdaL, lambdaR] = open_limit(a)
     
     tol      = 1e-8;   % criterion: how flat is "zero"

@@ -1,3 +1,12 @@
+%{
+    ----------------------------------------------------------------------
+    Author(s):    [Yannick DE BRUIJN, Erik HILTUNEN]
+    Date:         [August 2026]
+    Description:  [Delete duplicates as they mess up the weights in FFT]
+    ----------------------------------------------------------------------
+%}
+
+
 function merged = merge_close_points(openLimit, tol)
     
     n = length(openLimit);
